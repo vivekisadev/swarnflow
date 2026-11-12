@@ -1,0 +1,32 @@
+{
+  "name": "swarm-flow",
+  "version": "1.0.1",
+  "private": true,
+  "description": "Chrome extension: watch a swarm of cursors build any website, live, in your browser.",
+  "type": "module",
+  "scripts": {
+    "check": "node --check extension/swarmline.js && node --check extension/background.js",
+    "test:all": "npm run lint && npm test && npm run test:ext",
+    "lint": "eslint extension tests scripts",
+    "test": "node tests/smoke.mjs demo/index.html",
+    "test:site": "node tests/smoke.mjs https://cenovabuild.com/",
+    "test:ext": "node tests/extension.mjs demo/index.html",
+    "assets": "node scripts/make-assets.mjs",
+    "package": "node scripts/package.mjs",
+    "site": "node scripts/build-site.mjs",
+    "configure": "node scripts/configure.mjs",
+    "preflight": "node scripts/preflight.mjs"
+  },
+  "devDependencies": {
+    "@eslint/js": "10.0.1",
+    "eslint": "10.14.0",
+    "globals": "17.14.0",
+    "puppeteer-core": "25.16.0"
+  },
+  "license": "SEE LICENSE IN LICENSE",
+  "homepage": "https://imperfec-t.github.io/swarmline/",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/imperfec-t/swarmline.git"
+  }
+}

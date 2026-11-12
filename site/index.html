@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Swarm Flow · Watch any website build itself</title>
+<meta name="description" content="Swarm Flow is a free Chrome extension: one click and a swarm of cursors builds any website live, drawing boxes, typing text and duplicating repeated parts, then the page is live again.">
+<meta property="og:title" content="Swarm Flow · Watch any website build itself">
+<meta property="og:description" content="One click and a swarm of cursors builds any website live, right in your browser.">
+<meta property="og:image" content="https://imperfec-t.github.io/swarmline/assets/marquee-1400x560.png">
+<meta property="og:type" content="website">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="assets/favicon-32.png" sizes="32x32">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header class="top">
+  <div class="wrap">
+    <a class="brand" href="./"><img src="assets/icon.svg" alt="">Swarm Flow</a>
+    <nav class="links"><a href="#features">Features</a><a href="#how">How to use</a><a href="support.html">Support</a><a href="privacy.html">Privacy</a></nav>
+    <div style="display:flex;gap:10px;align-items:center;">
+      <a class="btn ghost" href="swarm-flow-1.0.1.zip" download="swarm-flow-1.0.1.zip">Download ZIP</a>
+      <a class="btn" href="{{STORE_URL}}">Add to Chrome</a>
+    </div>
+  </div>
+</header>
+
+<main>
+  <div class="hero">
+    <div class="wrap">
+      <span class="chip"><b></b> Free Chrome extension</span>
+      <h1>Watch any website <em>build itself</em>, live.</h1>
+      <p class="lede">One click and the page becomes a blank canvas. Then a swarm of cursors builds it back in ultra-smooth flow like designers in a design tool: boxes dragged out, text typed and snapped to guides, repeated parts duplicated and edited.</p>
+      <div class="cta">
+        <a class="btn" href="{{STORE_URL}}">Add to Chrome, it's free</a>
+        <a class="btn ghost" href="swarm-flow-1.0.1.zip" download="swarm-flow-1.0.1.zip">Download .zip</a>
+        <a class="btn ghost" href="#how">How it works</a>
+      </div>
+      <div class="shot"><img src="assets/hero.png" alt="Swarm Flow building a website: cursors Alt-dragging copies of a card, with the spacing measured"></div>
+    </div>
+  </div>
+
+  <section id="features"><div class="wrap">
+    <div class="kicker">What you'll see</div>
+    <h2>A whole crew, building in front of you.</h2>
+    <p class="sub">Everything appears in place on the real page, in the site's own colours and fonts, so the finished page is exactly the live site.</p>
+    <div class="grid">
+      <div class="card"><div class="dot" style="background:var(--coral)"></div><h3>Drawn by hand</h3><p>Every card, section and image frame is dragged out with a crosshair, with live sizes, selection handles, rulers and guides, then it fills in for real.</p></div>
+      <div class="card"><div class="dot" style="background:var(--violet)"></div><h3>Typed and snapped</h3><p>Text is typed letter by letter, big headlines grow into size, and text is nudged onto alignment guides until it snaps.</p></div>
+      <div class="card"><div class="dot" style="background:var(--blue)"></div><h3>Build one, duplicate the rest</h3><p>Cards, rows, links and icons are built once, Alt-dragged as copies with the spacing measured, then their words are selected and retyped.</p></div>
+      <div class="card"><div class="dot" style="background:var(--mint)"></div><h3>Buttery smooth flow</h3><p>Zero micro-stutter with full Lenis, GSAP, and smooth-scroll support. Cursors glide at locked high refresh rates leaving luminous stardust trails.</p></div>
+      <div class="card"><div class="dot" style="background:var(--amber)"></div><h3>Any website</h3><p>Works with modern sites: sticky headers, scroll animations, video, WebGL, app-style layouts.</p></div>
+      <div class="card"><div class="dot" style="background:linear-gradient(135deg,var(--coral),var(--blue))"></div><h3>Private by design</h3><p>Runs only on the tab you start it on. Sends nothing, stores nothing, leaves the page exactly as it was.</p></div>
+    </div>
+  </div></section>
+
+  <section><div class="wrap">
+    <div class="kicker">In action</div>
+    <h2>From blank canvas to live page.</h2>
+    <p class="sub">Real moments of Swarm Flow building a demo page for Quillwave, a fictional product.</p>
+    <div class="gallery">
+      <img src="assets/screenshot-1.png" alt="Every box drawn by hand: cursors dragging out the hero with rulers and size badges">
+      <img src="assets/screenshot-2.png" alt="Build one, duplicate the rest: service cards Alt-dragged as copies">
+      <img src="assets/screenshot-3.png" alt="Then change the details: a copied card's words selected for retyping">
+      <img src="assets/screenshot-4.png" alt="Typed, then snapped into place onto a red alignment guide">
+      <img src="assets/screenshot-5.png" alt="Live again: the finished page with the swarm following the mouse">
+    </div>
+  </div></section>
+
+  <section id="how"><div class="wrap">
+    <div class="kicker">How to use</div>
+    <h2>Three clicks to a launch-video moment.</h2>
+    <ol class="steps">
+      <li><b>Add Swarm Flow to Chrome</b> from the Chrome Web Store or download the unpacked ZIP above and pin it from the puzzle-piece menu.</li>
+      <li><b>Open any website</b> and click the Swarm Flow icon, or press <kbd>Alt</kbd> + <kbd>Shift</kbd> + <kbd>L</kbd>.</li>
+      <li><b>Sit back:</b> Auto-tour glides through the whole page on its own (<kbd>T</kbd> turns it off so you can scroll yourself). Pick <b>1× / 2× / 3×</b> speed, and hit <b>Finish</b> (<kbd>F</kbd>) any time. Recording? Press <kbd>H</kbd> to hide the controls, or drag them out of the way. <kbd>Esc</kbd> exits.</li>
+    </ol>
+  </div></section>
+</main>
+
+<footer class="bottom">
+  <div class="wrap">
+    <span>© 2026 Swarm Flow · motion after <a href="https://github.com/DhvanilPatel/swarm-cursors">Swarm Rebuild</a> by Dhvanil Patel and <a href="https://califa.github.io/swarm-site/">Swarm</a> by Joel Califa</span>
+    <nav><a href="support.html">Support</a><a href="privacy.html">Privacy policy</a><a href="https://github.com/imperfec-t/swarmline">GitHub</a></nav>
+  </div>
+</footer>
+</body>
+</html>

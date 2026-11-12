@@ -1,0 +1,40 @@
+{
+  "manifest_version": 3,
+  "name": "Swarm Flow – Watch Any Website Build Itself",
+  "short_name": "Swarm Flow",
+  "version": "1.0.1",
+  "description": "One click and a swarm of cursors builds any website live: boxes drawn, text typed, parts duplicated, then it’s live again.",
+  "minimum_chrome_version": "104",
+  "action": {
+    "default_title": "Swarm Flow (Alt+Shift+L)",
+    "default_icon": {
+      "16": "icons/icon16.png",
+      "32": "icons/icon32.png",
+      "48": "icons/icon48.png",
+      "128": "icons/icon128.png"
+    }
+  },
+  "icons": {
+    "16": "icons/icon16.png",
+    "32": "icons/icon32.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "permissions": [
+    "activeTab",
+    "scripting"
+  ],
+  "commands": {
+    "_execute_action": {
+      "suggested_key": {
+        "default": "Alt+Shift+L",
+        "mac": "Alt+Shift+L"
+      },
+      "description": "Build this page with the swarm"
+    }
+  },
+  "homepage_url": "https://imperfec-t.github.io/swarmline/"
+}

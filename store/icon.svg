@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128">
+  <defs>
+    <linearGradient id="sf-bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#FF2E93"/>
+      <stop offset=".48" stop-color="#8A2BE2"/>
+      <stop offset="1" stop-color="#00C8FF"/>
+    </linearGradient>
+    <linearGradient id="sf-sheen" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#fff" stop-opacity=".25"/>
+      <stop offset=".5" stop-color="#fff" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="sf-sh" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="3" stdDeviation="3" flood-color="#0E0524" flood-opacity=".55"/>
+    </filter>
+  </defs>
+  <rect width="128" height="128" rx="30" fill="url(#sf-bg)"/>
+  <rect width="128" height="128" rx="30" fill="url(#sf-sheen)"/>
+  <rect x="1" y="1" width="126" height="126" rx="29" fill="none" stroke="#fff" stroke-opacity=".18" stroke-width="2"/>
+  <g filter="url(#sf-sh)">
+    <path d="M22 86 C42 86, 54 66, 70 48 C80 36, 92 34, 104 34" fill="none" stroke="#fff" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M22 70 C38 70, 48 54, 60 40 C70 30, 80 28, 92 28" fill="none" stroke="#fff" stroke-opacity=".55" stroke-width="5" stroke-linecap="round"/>
+    
+    <circle cx="34" cy="54" r="3" fill="#fff" fill-opacity=".7"/>
+    <circle cx="50" cy="40" r="3.5" fill="#fff" fill-opacity=".85"/>
+    <g transform="translate(42 46) scale(.52)">
+      <path d="M0 0 L0 32 L8.2 24.6 L13.8 36.6 L20 33.8 L14.4 22 L25 21.8 Z" fill="#fff" fill-opacity=".85" stroke="#1A0B3D" stroke-width="3" stroke-linejoin="round"/>
+    </g>
+    <g transform="translate(76 44) scale(1.1)">
+      <path d="M0 0 L0 32 L8.2 24.6 L13.8 36.6 L20 33.8 L14.4 22 L25 21.8 Z" fill="#fff" stroke="#1A0B3D" stroke-width="2.8" stroke-linejoin="round"/>
+    </g>
+  </g>
+</svg>
