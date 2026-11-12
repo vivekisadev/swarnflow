@@ -31,10 +31,10 @@ Not uploaded anywhere: `node_modules\` (tools for building and testing) and `sto
 | Publisher name | imperfxt |
 | Account type | Non-trader |
 | Contact and support email | imperfxt@gmail.com |
-| GitHub | imperfec-t, repo `swarmline` |
-| Homepage | https://imperfec-t.github.io/swarmline/ |
-| Support page | https://imperfec-t.github.io/swarmline/support.html |
-| Privacy policy | https://imperfec-t.github.io/swarmline/privacy.html |
+| GitHub | vivekisadev, repo `swarnflow` |
+| Homepage | https://vivekisadev.github.io/swarnflow/ |
+| Support page | https://vivekisadev.github.io/swarnflow/support.html |
+| Privacy policy | https://vivekisadev.github.io/swarnflow/privacy.html |
 
 ## Step 0: final check (2 minutes)
 
@@ -51,11 +51,11 @@ It must end with **READY: 0 failing**. One warning ("storeUrl not set yet") is e
 
 The store needs a public privacy policy page, and the website in `site\` provides it.
 
-1. Sign in to github.com as **imperfec-t**. Click **+ → New repository**.
-2. Repository name: **`swarmline`**. Set it to **Public**. Leave "Add a README", ".gitignore" and "license" **unticked**, because this folder already has them. Click **Create repository**.
+1. Sign in to github.com as **vivekisadev**. Click **+ → New repository**.
+2. Repository name: **`swarnflow`**. Set it to **Public**. Leave "Add a README", ".gitignore" and "license" **unticked**, because this folder already has them. Click **Create repository**.
 3. In a terminal in this folder:
    ```sh
-   git remote add origin https://github.com/imperfec-t/swarmline.git
+   git remote add origin https://github.com/vivekisadev/swarnflow.git
    git push -u origin main
    ```
    The first push opens a browser window to sign in to GitHub. Approve it.
@@ -65,9 +65,9 @@ The store needs a public privacy policy page, and the website in `site\` provide
 1. On the repo page: **Settings → Pages → Build and deployment → Source: GitHub Actions**.
 2. Open the **Actions** tab. Wait for the **Website** run to turn green (about a minute). If it ran and failed before you changed the setting, click it and choose **Re-run all jobs**.
 3. Open these three pages and check they load:
-   - https://imperfec-t.github.io/swarmline/
-   - https://imperfec-t.github.io/swarmline/privacy.html
-   - https://imperfec-t.github.io/swarmline/support.html
+   - https://vivekisadev.github.io/swarnflow/
+   - https://vivekisadev.github.io/swarnflow/privacy.html
+   - https://vivekisadev.github.io/swarnflow/support.html
 
 Don't submit to the store until the privacy page loads. Reviewers open it.
 
@@ -101,13 +101,13 @@ Don't submit to the store until the privacy page loads. Reviewers open it.
    - **Permission justifications:** paste the two lines for `activeTab` and `scripting`. There are no host permissions to justify.
    - **Remote code:** "No, I am not using remote code".
    - **Data usage:** tick **no** data types, then tick all **three** certifications.
-   - **Privacy policy URL:** https://imperfec-t.github.io/swarmline/privacy.html
+   - **Privacy policy URL:** https://vivekisadev.github.io/swarnflow/privacy.html
 
    **Distribution tab**
    - **Payments:** Free. **Visibility:** Public. **Regions:** All regions.
 
    **Test instructions tab** (if shown)
-   - "No account or setup needed. Open any website, click the Swarmline toolbar button (or press Alt+Shift+L), and watch it build. Press F to finish, Esc to exit."
+   - "No account or setup needed. Open any website, click the Swarm Flow toolbar button (or press Alt+Shift+L), and watch it build. Press F to finish, Esc to exit."
 
 3. Click **Save draft**, then **Submit for review**. You can untick "Publish automatically after approval" if you want to press Publish yourself.
 
@@ -115,10 +115,10 @@ Review usually takes a few days, sometimes longer for a new developer account. G
 
 ## Step 5: after approval (5 minutes)
 
-1. Copy the store address. It looks like `https://chromewebstore.google.com/detail/swarmline/<id>`.
+1. Copy the store address. It looks like `https://chromewebstore.google.com/detail/swarm-flow/<id>`.
 2. Point the website's **Add to Chrome** buttons at it:
    ```sh
-   npm run configure -- --store-url https://chromewebstore.google.com/detail/swarmline/<id>
+   npm run configure -- --store-url https://chromewebstore.google.com/detail/swarm-flow/<id>
    git commit -am "Link the store listing"
    git push
    ```

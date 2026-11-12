@@ -78,8 +78,8 @@ Upload the screenshots in that order. Each is a real moment of Swarmline buildin
 | Field | Value |
 | --- | --- |
 | Official URL | (leave empty unless you verify a domain in Search Console) |
-| Homepage URL | https://imperfec-t.github.io/swarmline/ |
-| Support URL | https://imperfec-t.github.io/swarmline/support.html |
+| Homepage URL | https://vivekisadev.github.io/swarnflow/ |
+| Support URL | https://vivekisadev.github.io/swarnflow/support.html |
 | Mature content | No |
 
 ## Privacy practices tab
@@ -87,27 +87,27 @@ Upload the screenshots in that order. Each is a real moment of Swarmline buildin
 **Single purpose description:**
 
 ```
-Swarmline plays an animation of the current web page being built by a swarm of cursors: it temporarily hides the page's elements and brings them back one by one (drawing boxes, typing text, duplicating repeated parts) until the live page is fully shown again.
+Swarm Flow plays an animation of the current web page being built by a swarm of cursors: it temporarily hides the page's elements and brings them back one by one (drawing boxes, typing text, duplicating repeated parts) until the live page is fully shown again.
 ```
 
 **Permission justifications:**
 
 | Permission | Justification (paste) |
 | --- | --- |
-| `activeTab` | Lets Swarmline run on the tab where the user clicks the toolbar button or presses the shortcut, and only then. It has no access to any other tab or site. |
-| `scripting` | Injects Swarmline's bundled script (swarmline.js) into that tab to play the build animation over the page. |
+| `activeTab` | Lets Swarm Flow run on the tab where the user clicks the toolbar button or presses the shortcut, and only then. It has no access to any other tab or site. |
+| `scripting` | Injects Swarm Flow's bundled script (swarmline.js) into that tab to play the build animation over the page. |
 
 **Host permissions:** none requested.
 
 **Are you using remote code?** No, I am not using remote code. (All code is in the package; nothing is downloaded or evaluated at runtime.)
 
-**Data usage:** tick none of the data types (Swarmline collects nothing), then tick all three certifications:
+**Data usage:** tick none of the data types (Swarm Flow collects nothing), then tick all three certifications:
 
 - I do not sell or transfer user data to third parties, outside of the approved use cases
 - I do not use or transfer user data for purposes that are unrelated to my item's single purpose
 - I do not use or transfer user data to determine creditworthiness or for lending purposes
 
-**Privacy policy URL:** https://imperfec-t.github.io/swarmline/privacy.html
+**Privacy policy URL:** https://vivekisadev.github.io/swarnflow/privacy.html
 
 ## Distribution tab
 

@@ -10,7 +10,7 @@ Swarm Flow is a Chrome extension. Click it on any page and the page becomes a bl
 
 Everything appears in place on the real page, so the result is always exactly the live site: its fonts, GSAP, Lenis, and CSS animations, video, canvases and links keep working throughout.
 
-**Website:** https://imperfec-t.github.io/swarmline/ · **Privacy:** [PRIVACY.md](PRIVACY.md) · **License:** [LICENSE](LICENSE) (MIT for Swarm Flow's own code; the adapted parts stay their authors', see NOTICE)
+**Website:** https://vivekisadev.github.io/swarnflow/ · **Privacy:** [PRIVACY.md](PRIVACY.md) · **License:** [LICENSE](LICENSE) (MIT for Swarm Flow's own code; the adapted parts stay their authors', see NOTICE)
 
 ## Install (development)
 
